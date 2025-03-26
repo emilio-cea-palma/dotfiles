@@ -1,0 +1,25 @@
+general.import = [
+  # uncomment the flavour you want below:
+  # "C:\\Users\\emilio\\Downloads\\alacritty\\catppuccin-latte.toml"
+  # "~/.config/alacritty/catppuccin-frappe.toml"
+  "C:\\Users\\emilio\\Downloads\\alacritty\\catppuccin-macchiato.toml"
+
+  # "~/.config/alacritty/catppuccin-mocha.toml"
+]
+window.decorations='none'
+window.startup_mode='Maximized'
+#window.padding={x=7}
+terminal.shell={program='ubuntu2204.exe', args=['-c', 'tmux']}
+cursor.style={"shape"="Underline", "blinking"="On"}
+cursor.vi_mode_style={"shape"="Underline", "blinking"="On"}
+window.opacity = 0.96
+[env]
+TERM = "xterm-256color"
+[font]
+#normal = { family = "Hack Nerd Font Mono", style = "Regular" }
+#normal = { family = "3270 Nerd Font Mono", style="Regular"}
+#normal = { family = "RandyGG", style="Regular"}
+normal = { family = "The Font"}
+#normal = { family = "DepartureMono Nerd Font Mono"}
+#normal = { family = "GohuFont 14 Nerd Font Mono"}
+size = 16
